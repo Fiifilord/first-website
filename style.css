@@ -1,0 +1,86 @@
+/* Set the side color to yellow */
+body {
+    background-color: #ffca28; /* Yellow color */
+}
+
+/* Customize Bootstrap Styles */
+
+/* Update the background color for the banner and navigation */
+#banner {
+    background-color: #ffca28;
+}
+
+nav.navbar {
+    background-color: #ffca28;
+    border-bottom: 2px solid #333; /* Add a border at the bottom of the navbar */
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    color: #333; /* Change link color */
+    font-weight: bold;
+    transition: color 0.3s; /* Add smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffca28; /* Change link color on hover */
+}
+
+/* Style the carousel indicators and controls */
+.carousel-indicators li {
+    background-color: #ffca28;
+    border: 2px solid #333; /* Add a border around indicators */
+}
+
+.carousel-indicators .active {
+    background-color: #333; /* Change active indicator color */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ffca28; /* Change arrow background color */
+    border-radius: 50%; /* Make arrow buttons round */
+    padding: 10px; /* Increase arrow button size */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 6%; /* Adjust arrow button size */
+}
+
+/* Style the carousel captions (optional) */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the "Get Involved" section buttons */
+.get-involved-option .card {
+    border: none; /* Remove card borders */
+    transition: transform 0.2s; /* Add a slight zoom effect on hover */
+}
+
+.get-involved-option .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
+
+/* Style the footer background */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style the social media icons */
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s; /* Add smooth color transition */
+}
+
+.social-icons a:hover {
+    color: #ffca28; /* Change icon color on hover */
+}
